@@ -8,5 +8,6 @@ public static void main(String[] args) {
 	System.out.println(gastoTrimestre);
 	int mediaMes = gastoTrimestre / 3;
 	System.out.println("A média de gasto mês é de: R$" + mediaMes);
+	
 }
 }
