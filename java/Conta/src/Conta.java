@@ -1,19 +1,27 @@
 
 public class Conta {
-	String titular;
-	int numero;
-	String agencia;
-	double saldo;
-	Data dataDeAbertura = new Data();
+	private String titular = "Natan";
+	private int numero;
+	private String agencia;
+	private double saldo;
+	private Data dataDeAbertura = new Data();
 	
-	void sacar(double valor) {
-		this.saldo -= valor;
+	public void sacar(double valor) {
+		if(valor > this.saldo) {
+			System.out.println("Saldo insuficiente!");
+		} else {
+			this.saldo -= valor;
+		}
+		
 	}
 	
-	void depositar(double valor) {
-		this.saldo += valor;
+	public void depositar(double valor) {
+		if(valor <= 0) {
+			System.out.println("Não é possível depositar o valor");
+		}else {
+			this.saldo += valor;
+		}
 	}
-	
 	double calcularRendimento() {
 		return this.saldo = (double)this.saldo * 0.1;
 	}
@@ -26,40 +34,71 @@ public class Conta {
 		dados += "data de abertura:" + this.dataDeAbertura.formatada();
 		return dados;
 	}
+	 public double getSaldo() {
+		 return  this.saldo;
+	 }
+	 
+	 public void setSaldo(double saldo) {
+		 this.saldo = saldo;
+	 }
+	 
+	 public String getTitular() {
+		 return this.titular;
+	 }
+	 
+	 public void setTitular(String titular) {
+		 this.titular = titular;
+	 }
+	 
+	 public int getNumero() {
+		 return this.numero;
+	 }
+	 
+	 public void setNumero(int numero) {
+		 this.numero = numero;
+	 }
+	 
+	 public String getAgencia() {
+		 return this.agencia;
+	 }
+	 
+	 public void setAgencia(String agencia) {
+		 this.agencia = agencia;
+	 }
+	 
+	public Data getData() {
+		return this.dataDeAbertura;
+	}
+	
+	public void setData(Data data) {
+		this.dataDeAbertura = data;
+	}
+	
+	//construtor
+	Conta(String titular){
+		this.titular = titular;
+	}
+	//construtor
+	 Conta(int numero, String titular) {
+	this(titular);
+	this.numero = numero;
+	}
+	 
+	 
+	 
 }
 
 class ContaTestDrive{
 	public static void main(String[] args) {
-		Conta account1 = new Conta();
-		account1.titular = "Natan";
-		account1.numero = 1;
-		account1.agencia = "102020-2";
-		account1.saldo = 500;
-		account1.dataDeAbertura = new Data();
+		Conta account1 = new Conta("Natan");
+		account1.setTitular("Natan");
+		account1.setNumero(10);;
+		account1.setAgencia("102030");
+		account1.setSaldo(2000);
+		account1.setData(new Data());
 		account1.depositar(100);
-		System.out.println("saldo atual: " + account1.saldo);
-		System.out.println("rendimento mensal: " + account1.calcularRendimento());
 		
-		Conta account2 = new Conta();
-		account2.titular = "Bel";
-		account2.saldo = 500;
-		Conta account3 = new Conta();
-		account2.titular = "Bel";
-		account2.saldo = 500;
-		
-		//apontando pra mesma referencia na memoria!!!!
-		account3 = account2;
-		
-		//são diferetes sem a linha de cima, pois apontam pra locais diferentes na memoria!!
-		if(account2 == account3) {
-			System.out.println("Iguais!");
-		} else {
-			System.out.println("Diferentes!");
-		}
-		
-		System.out.println(account1.retornarDadosImpressao());
-		
-		
+		System.out.println(account1.getTitular());
 	}
 }
 
@@ -67,10 +106,7 @@ class Data{
 	int dia;
 	int mes;
 	int ano;
-	
 	String formatada(){
 		return (dia + "/" + mes + "/" + ano);
 	}
-	
-	
 }
