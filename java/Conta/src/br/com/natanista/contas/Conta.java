@@ -1,3 +1,4 @@
+package br.com.natanista.contas;
 
 public class Conta {
 	private static int identificador;

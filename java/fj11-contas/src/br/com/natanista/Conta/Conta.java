@@ -1,4 +1,7 @@
 
+
+package br.com.natanista.Conta;
+
 public class Conta {
 
 	private double saldo;
