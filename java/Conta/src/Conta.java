@@ -1,11 +1,12 @@
 
 public class Conta {
+	private static int identificador;
+	private static int totalDeContas;
 	private String titular = "Natan";
 	private int numero;
 	private String agencia;
 	private double saldo;
-	private Data dataDeAbertura = new Data();
-	
+	private Data dataDeAbertura;	
 	public void sacar(double valor) {
 		if(valor > this.saldo) {
 			System.out.println("Saldo insuficiente!");
@@ -46,17 +47,11 @@ public class Conta {
 		 return this.titular;
 	 }
 	 
-	 public void setTitular(String titular) {
-		 this.titular = titular;
-	 }
 	 
 	 public int getNumero() {
 		 return this.numero;
 	 }
 	 
-	 public void setNumero(int numero) {
-		 this.numero = numero;
-	 }
 	 
 	 public String getAgencia() {
 		 return this.agencia;
@@ -74,15 +69,22 @@ public class Conta {
 		this.dataDeAbertura = data;
 	}
 	
-	//construtor
-	Conta(String titular){
-		this.titular = titular;
-	}
+
 	//construtor
 	 Conta(int numero, String titular) {
-	this(titular);
+	this.titular = titular;
 	this.numero = numero;
+	Conta.totalDeContas = Conta.totalDeContas + 1;
+	this.identificador = totalDeContas;
 	}
+	 
+	 public static int getTotalDeContas() {
+		 return Conta.totalDeContas;
+	 }
+	 
+	 public int getIdentificador() {
+		 return this.identificador;
+	 }
 	 
 	 
 	 
@@ -90,15 +92,18 @@ public class Conta {
 
 class ContaTestDrive{
 	public static void main(String[] args) {
-		Conta account1 = new Conta("Natan");
-		account1.setTitular("Natan");
-		account1.setNumero(10);;
+		Conta account1 = new Conta(10 ,"Natan");
 		account1.setAgencia("102030");
 		account1.setSaldo(2000);
-		account1.setData(new Data());
+		account1.setData(new Data(2,10,2021));
 		account1.depositar(100);
 		
+
+		
 		System.out.println(account1.getTitular());
+		
+		int total = Conta.getTotalDeContas();
+		System.out.println("total de contas: " + total);
 	}
 }
 
@@ -106,7 +111,28 @@ class Data{
 	int dia;
 	int mes;
 	int ano;
+	int anoLimite = 2021;
 	String formatada(){
 		return (dia + "/" + mes + "/" + ano);
+	}
+	
+
+	Data(int dia, int mes, int ano) {
+		if(dia < 1 || dia > 31) {
+			System.out.println("Dia inválido");
+			this.dia = 0;
+		}
+		if(mes < 1 || mes > 12) {
+			System.out.println("Mês inválido");
+			this.mes = 0;
+		}
+		if(ano < 2021) {
+			System.out.println("Ano inválido");
+		}
+		if(dia > 1 || dia <= 31 && mes > 1 || mes <= 12 && ano >= 2021) {
+			this.dia = dia;
+			this.mes = mes;
+			this.ano = ano;
+		}
 	}
 }
