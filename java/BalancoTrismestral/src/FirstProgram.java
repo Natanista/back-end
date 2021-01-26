@@ -13,7 +13,6 @@ public class FirstProgram {
 		String nome = "Natan";
 		char letra = 'a';
 		System.out.println(letra + " " + nome);
-		}
-	
-}
+	}
 
+}
