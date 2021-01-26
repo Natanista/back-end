@@ -6,7 +6,7 @@
 			<attribute name="module" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="/home/natanista/Downloads/fj11-lib-contas.jar">
+	<classpathentry kind="lib" path="/home/natanista/Documents/github/javafx-lib-contas/shade/fj11-lib-contas.jar">
 		<attributes>
 			<attribute name="module" value="true"/>
 		</attributes>
