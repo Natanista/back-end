@@ -1,0 +1,16 @@
+/home/natanista/Documents/github/back-end/c#/Code/Chapter01/HelloCS/bin/Debug/net5.0/HelloCS
+/home/natanista/Documents/github/back-end/c#/Code/Chapter01/HelloCS/bin/Debug/net5.0/HelloCS.deps.json
+/home/natanista/Documents/github/back-end/c#/Code/Chapter01/HelloCS/bin/Debug/net5.0/HelloCS.runtimeconfig.json
+/home/natanista/Documents/github/back-end/c#/Code/Chapter01/HelloCS/bin/Debug/net5.0/HelloCS.runtimeconfig.dev.json
+/home/natanista/Documents/github/back-end/c#/Code/Chapter01/HelloCS/bin/Debug/net5.0/HelloCS.dll
+/home/natanista/Documents/github/back-end/c#/Code/Chapter01/HelloCS/bin/Debug/net5.0/ref/HelloCS.dll
+/home/natanista/Documents/github/back-end/c#/Code/Chapter01/HelloCS/bin/Debug/net5.0/HelloCS.pdb
+/home/natanista/Documents/github/back-end/c#/Code/Chapter01/HelloCS/obj/Debug/net5.0/HelloCS.csprojAssemblyReference.cache
+/home/natanista/Documents/github/back-end/c#/Code/Chapter01/HelloCS/obj/Debug/net5.0/HelloCS.GeneratedMSBuildEditorConfig.editorconfig
+/home/natanista/Documents/github/back-end/c#/Code/Chapter01/HelloCS/obj/Debug/net5.0/HelloCS.AssemblyInfoInputs.cache
+/home/natanista/Documents/github/back-end/c#/Code/Chapter01/HelloCS/obj/Debug/net5.0/HelloCS.AssemblyInfo.cs
+/home/natanista/Documents/github/back-end/c#/Code/Chapter01/HelloCS/obj/Debug/net5.0/HelloCS.csproj.CoreCompileInputs.cache
+/home/natanista/Documents/github/back-end/c#/Code/Chapter01/HelloCS/obj/Debug/net5.0/HelloCS.dll
+/home/natanista/Documents/github/back-end/c#/Code/Chapter01/HelloCS/obj/Debug/net5.0/ref/HelloCS.dll
+/home/natanista/Documents/github/back-end/c#/Code/Chapter01/HelloCS/obj/Debug/net5.0/HelloCS.pdb
+/home/natanista/Documents/github/back-end/c#/Code/Chapter01/HelloCS/obj/Debug/net5.0/HelloCS.genruntimeconfig.cache

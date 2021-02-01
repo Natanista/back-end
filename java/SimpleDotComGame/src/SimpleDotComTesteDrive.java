@@ -4,7 +4,7 @@ public class SimpleDotComTesteDrive {
 		SimpleDotCom dot = new SimpleDotCom();
 		
 		int[] locations = {2,3,4};
-		dot.setLocation(locations);
+		dot.setLocationCells(locations);
 		
 		String userGuess = "2";
 		String result = dot.checkYourself(userGuess);

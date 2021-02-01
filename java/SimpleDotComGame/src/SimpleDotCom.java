@@ -22,7 +22,7 @@ public class SimpleDotCom {
 		return result;
 	}
 	
-	public void setLocation(int[] locs) {
+	public void setLocationCells(int[] locs) {
 		locationCells = locs;
 	}
 }
