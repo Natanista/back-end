@@ -1,0 +1,16 @@
+/home/natanista/Documents/github/back-end/c#/Code/Chapter02/Numbers/bin/Debug/net5.0/Numbers
+/home/natanista/Documents/github/back-end/c#/Code/Chapter02/Numbers/bin/Debug/net5.0/Numbers.deps.json
+/home/natanista/Documents/github/back-end/c#/Code/Chapter02/Numbers/bin/Debug/net5.0/Numbers.runtimeconfig.json
+/home/natanista/Documents/github/back-end/c#/Code/Chapter02/Numbers/bin/Debug/net5.0/Numbers.runtimeconfig.dev.json
+/home/natanista/Documents/github/back-end/c#/Code/Chapter02/Numbers/bin/Debug/net5.0/Numbers.dll
+/home/natanista/Documents/github/back-end/c#/Code/Chapter02/Numbers/bin/Debug/net5.0/ref/Numbers.dll
+/home/natanista/Documents/github/back-end/c#/Code/Chapter02/Numbers/bin/Debug/net5.0/Numbers.pdb
+/home/natanista/Documents/github/back-end/c#/Code/Chapter02/Numbers/obj/Debug/net5.0/Numbers.csprojAssemblyReference.cache
+/home/natanista/Documents/github/back-end/c#/Code/Chapter02/Numbers/obj/Debug/net5.0/Numbers.GeneratedMSBuildEditorConfig.editorconfig
+/home/natanista/Documents/github/back-end/c#/Code/Chapter02/Numbers/obj/Debug/net5.0/Numbers.AssemblyInfoInputs.cache
+/home/natanista/Documents/github/back-end/c#/Code/Chapter02/Numbers/obj/Debug/net5.0/Numbers.AssemblyInfo.cs
+/home/natanista/Documents/github/back-end/c#/Code/Chapter02/Numbers/obj/Debug/net5.0/Numbers.csproj.CoreCompileInputs.cache
+/home/natanista/Documents/github/back-end/c#/Code/Chapter02/Numbers/obj/Debug/net5.0/Numbers.dll
+/home/natanista/Documents/github/back-end/c#/Code/Chapter02/Numbers/obj/Debug/net5.0/ref/Numbers.dll
+/home/natanista/Documents/github/back-end/c#/Code/Chapter02/Numbers/obj/Debug/net5.0/Numbers.pdb
+/home/natanista/Documents/github/back-end/c#/Code/Chapter02/Numbers/obj/Debug/net5.0/Numbers.genruntimeconfig.cache
