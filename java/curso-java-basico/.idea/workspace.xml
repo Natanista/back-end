@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="73934e7b-d27e-4d1a-91f8-2241065590f4" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eclipse/curso-java-basico/src/com/natanista/cursojava/aula17/Atividade15.java" beforeDir="false" afterPath="$PROJECT_DIR$/eclipse/curso-java-basico/src/com/natanista/cursojava/aula17/Atividade15.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,13 +47,13 @@
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="Application.Break">
-    <configuration name="Atividade13" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.natanista.cursojava.aula17.Atividade13" />
+  <component name="RunManager" selected="Application.Arrays">
+    <configuration name="Arrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.natanista.cursojava.aula19.Arrays" />
       <module name="curso-java-basico" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.natanista.cursojava.aula17.*" />
+          <option name="PATTERN" value="com.natanista.cursojava.aula19.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -116,11 +115,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Arrays" />
         <item itemvalue="Application.Break" />
         <item itemvalue="Application.Atividade16" />
         <item itemvalue="Application.Atividade15" />
         <item itemvalue="Application.Atividade14" />
-        <item itemvalue="Application.Atividade13" />
       </list>
     </recent_temporary>
   </component>
