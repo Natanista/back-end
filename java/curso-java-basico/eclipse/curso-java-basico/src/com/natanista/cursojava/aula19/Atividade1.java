@@ -16,7 +16,7 @@ public class Atividade1 {
 
         }
         for(int i = 0; i < A; i++){
-         
+
         }
 
 
