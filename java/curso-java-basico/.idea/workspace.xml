@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="559c8b58-97f9-46db-ab6b-038758950cbd" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eclipse/curso-java-basico/src/com/natanista/cursojava/aula19/Arrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/eclipse/curso-java-basico/src/com/natanista/cursojava/aula19/Arrays.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eclipse/curso-java-basico/src/com/natanista/cursojava/aula19/Atividade1.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,46 +38,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$USER_HOME$/Downloads" />
   </component>
-  <component name="RunManager" selected="Application.Atividade10">
-    <configuration name="Atividade04" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.natanista.cursojava.aula19.Atividade04" />
-      <module name="curso-java-basico" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.natanista.cursojava.aula19.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Atividade05" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.natanista.cursojava.aula19.Atividade05" />
-      <module name="curso-java-basico" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.natanista.cursojava.aula19.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Atividade06" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.natanista.cursojava.aula19.Atividade06" />
-      <module name="curso-java-basico" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.natanista.cursojava.aula19.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Atividade13">
     <configuration name="Atividade09" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.natanista.cursojava.aula19.Atividade09" />
       <module name="curso-java-basico" />
@@ -108,13 +65,52 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Atividade11" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.natanista.cursojava.aula19.Atividade11" />
+      <module name="curso-java-basico" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.natanista.cursojava.aula19.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Atividade12" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.natanista.cursojava.aula19.Atividade12" />
+      <module name="curso-java-basico" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.natanista.cursojava.aula19.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Atividade13" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.natanista.cursojava.aula19.Atividade13" />
+      <module name="curso-java-basico" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.natanista.cursojava.aula19.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Atividade13" />
+        <item itemvalue="Application.Atividade12" />
+        <item itemvalue="Application.Atividade11" />
         <item itemvalue="Application.Atividade10" />
         <item itemvalue="Application.Atividade09" />
-        <item itemvalue="Application.Atividade06" />
-        <item itemvalue="Application.Atividade05" />
-        <item itemvalue="Application.Atividade04" />
       </list>
     </recent_temporary>
   </component>
