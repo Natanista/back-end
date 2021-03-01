@@ -3,27 +3,20 @@ package com.natanista.cursojava.aula19;
 public class Arrays {
     public static void main(String[] args) {
 
-        Double[] dias = new Double[365];
-        dias[0] = 33.8;
-        dias[1] = 33.1;
-        dias[2] = 33.2;
-        dias[3] = 33.3;
-        dias[4] = 33.4;
-        dias[5] = 33.6;
+        Double[] temperaturas = new Double[365];
+        temperaturas[0] = 31.3;
+        temperaturas[1] = 35.3;
+        temperaturas[2] = 34.3;
+        temperaturas[3] = 33.3;
+        temperaturas[4] = 32.3;
 
-        System.out.println("Temperatura dia 3: " + dias[2]);
-
-        System.out.println("Tamanho do array: " + dias.length);
-
-        for(int i= 0; i < dias.length; i++){
-            System.out.println("temperatuas: " + dias[i]);
+        for(int i = 0; i < 5; i++){
+            System.out.println("Temperatura atual = " + temperaturas[i] + "º");
         }
+        System.out.println("Tamanho total do array =  " + temperaturas.length);
 
-        // passar pelos itens da array - mais comum
-        for(Double temp : dias){
+        for(Double temp : temperaturas){
             System.out.println(temp);
         }
-
-
     }
 }
