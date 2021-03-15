@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="559c8b58-97f9-46db-ab6b-038758950cbd" name="Default Changelist" comment="">
+    <list default="true" id="559c8b58-97f9-46db-ab6b-038758950cbd" name="Default Changelist" comment="matrizes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -38,13 +38,13 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$USER_HOME$/Downloads" />
   </component>
-  <component name="RunManager" selected="Application.MatrizIrregular">
-    <configuration name="Atividade17" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.natanista.cursojava.aula19.Atividade17" />
+  <component name="RunManager" selected="Application.Atividade01">
+    <configuration name="Atividade01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.natanista.cursojava.aula20.Atividade01" />
       <module name="curso-java-basico" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.natanista.cursojava.aula19.*" />
+          <option name="PATTERN" value="com.natanista.cursojava.aula20.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -106,11 +106,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Atividade01" />
         <item itemvalue="Application.MatrizIrregular" />
         <item itemvalue="Application.MatrizTridimensional" />
         <item itemvalue="Application.Matrizes" />
         <item itemvalue="Application.Atividade18" />
-        <item itemvalue="Application.Atividade17" />
       </list>
     </recent_temporary>
   </component>
@@ -136,5 +136,21 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/eclipse/curso-java-basico/src/com/natanista/cursojava/aula20/Atividade01.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/eclipse/curso-java-basico/src/com/natanista/cursojava/aula20/Atividade01.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
