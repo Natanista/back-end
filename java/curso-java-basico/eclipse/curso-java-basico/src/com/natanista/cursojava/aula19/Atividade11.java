@@ -11,7 +11,7 @@ public class Atividade11 {
         Integer[] vetorA = new Integer[10];
         Integer pares = 0;
 
-        for(int i = 1; i < vetorA.length;i++){
+        for(int i = 1; i <       vetorA.length;i++){
             System.out.println(String.format("Digite o valor da posição %d: ",i));
             vetorA[i] = scan.nextInt();
             if(vetorA[i] % 2 == 0){
