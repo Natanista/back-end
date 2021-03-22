@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="559c8b58-97f9-46db-ab6b-038758950cbd" name="Default Changelist" comment="matrizes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eclipse/curso-java-basico/src/com/natanista/cursojava/aula19/Atividade11.java" beforeDir="false" afterPath="$PROJECT_DIR$/eclipse/curso-java-basico/src/com/natanista/cursojava/aula19/Atividade11.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse/curso-java-basico/src/com/natanista/cursojava/aula19/Atividade20.java" beforeDir="false" afterPath="$PROJECT_DIR$/eclipse/curso-java-basico/src/com/natanista/cursojava/aula19/Atividade20.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,33 +40,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../bandtec_adsb_second_semester" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
-  <component name="RunManager" selected="Application.Atividade20">
-    <configuration name="Atividade01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.natanista.cursojava.aula20.Atividade01" />
-      <module name="curso-java-basico" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.natanista.cursojava.aula20.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Atividade02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.natanista.cursojava.aula20.Atividade02" />
-      <module name="curso-java-basico" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.natanista.cursojava.aula20.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Atividade24">
     <configuration name="Atividade19" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.natanista.cursojava.aula19.Atividade19" />
       <module name="curso-java-basico" />
@@ -93,12 +67,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MatrizIrregular" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.natanista.cursojava.aula20.MatrizIrregular" />
+    <configuration name="Atividade22" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.natanista.cursojava.aula19.Atividade22" />
       <module name="curso-java-basico" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.natanista.cursojava.aula20.*" />
+          <option name="PATTERN" value="com.natanista.cursojava.aula19.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Atividade23" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.natanista.cursojava.aula19.Atividade23" />
+      <module name="curso-java-basico" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.natanista.cursojava.aula19.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Atividade24" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.natanista.cursojava.aula19.Atividade24" />
+      <module name="curso-java-basico" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.natanista.cursojava.aula19.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -108,11 +108,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Atividade24" />
+        <item itemvalue="Application.Atividade23" />
+        <item itemvalue="Application.Atividade22" />
         <item itemvalue="Application.Atividade20" />
         <item itemvalue="Application.Atividade19" />
-        <item itemvalue="Application.Atividade02" />
-        <item itemvalue="Application.Atividade01" />
-        <item itemvalue="Application.MatrizIrregular" />
       </list>
     </recent_temporary>
   </component>

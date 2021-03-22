@@ -21,9 +21,11 @@ public class Atividade20 {
 
         }
 
-        for (int i = 0; i < vetorA.length;i++){
-            System.out.println(vetorA[i]);
+        System.out.println("Vetor A? = ");
+        for(int i = 0; i < vetorA.length;i++){
+            System.out.println(vetorA[i] + " ");
         }
+        System.out.println();
 
     }
 
