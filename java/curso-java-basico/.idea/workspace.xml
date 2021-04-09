@@ -36,10 +36,10 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../SYSIGHT/java-v1" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
-  <component name="RunManager" selected="Application.TesteContaCorrente (2)">
+  <component name="RunManager" selected="Application.TesteContato (1)">
     <configuration name="TesteContaCorrente (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.natanista.cursojava.aula25.TesteContaCorrente" />
       <module name="curso-java-basico" />
@@ -66,12 +66,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TesteContato" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.natanista.cursojava.aula24.TesteContato" />
+    <configuration name="TesteContato (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.natanista.cursojava.aula36.TesteContato" />
       <module name="curso-java-basico" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.natanista.cursojava.aula24.*" />
+          <option name="PATTERN" value="com.natanista.cursojava.aula36.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -107,11 +107,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TesteContato (1)" />
         <item itemvalue="Application.TesteContaCorrente (2)" />
         <item itemvalue="Application.TesteLampada (1)" />
         <item itemvalue="Application.TesteContaCorrente (1)" />
         <item itemvalue="Application.TesteLampada" />
-        <item itemvalue="Application.TesteContato" />
       </list>
     </recent_temporary>
   </component>
@@ -155,6 +155,11 @@
           <url>file://$PROJECT_DIR$/eclipse/curso-java-basico/src/com/natanista/cursojava/aula33/ContaCorrente.java</url>
           <line>14</line>
           <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/eclipse/curso-java-basico/src/com/natanista/cursojava/aula36/Contato.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="6" />
         </line-breakpoint>
         <breakpoint enabled="true" type="java-exception">
           <properties class="java.lang.NullPointerException" package="java.lang" />
